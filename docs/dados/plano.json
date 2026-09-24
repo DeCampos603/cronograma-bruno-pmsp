@@ -1,0 +1,1119 @@
+{
+ "gerado_em": "2026-09-24",
+ "aluno": "Bruno Reis",
+ "concurso": {
+  "sigla": "PM-SP",
+  "cargo": "Aluno-Soldado PM (QP)",
+  "inicio": "2026-09-28",
+  "prova": "2027-03-14",
+  "semanas": 24
+ },
+ "materias": {
+  "port": {
+   "nome": "Língua Portuguesa",
+   "grupo": "Língua Portuguesa e Interpretação de Texto",
+   "questoes": 20,
+   "cor": "#15803D"
+  },
+  "mat": {
+   "nome": "Matemática",
+   "grupo": "Matemática",
+   "questoes": 15,
+   "cor": "#1D4ED8"
+  },
+  "hist": {
+   "nome": "História",
+   "grupo": "Conhecimentos Gerais",
+   "questoes": 0,
+   "cor": "#92400E"
+  },
+  "geo": {
+   "nome": "Geografia",
+   "grupo": "Conhecimentos Gerais",
+   "questoes": 0,
+   "cor": "#0E7490"
+  },
+  "atual": {
+   "nome": "Atualidades",
+   "grupo": "Conhecimentos Gerais",
+   "questoes": 0,
+   "cor": "#C2410C"
+  },
+  "info": {
+   "nome": "Noções de Informática",
+   "grupo": "Noções Básicas de Informática",
+   "questoes": 5,
+   "cor": "#7C3AED"
+  },
+  "adm": {
+   "nome": "Noções de Administração Pública",
+   "grupo": "Noções de Administração Pública",
+   "questoes": 5,
+   "cor": "#9D174D"
+  },
+  "red": {
+   "nome": "Redação (Prova Dissertativa)",
+   "grupo": "Prova Dissertativa",
+   "questoes": 0,
+   "cor": "#B91C1C"
+  },
+  "fis": {
+   "nome": "Preparação física (TAF)",
+   "grupo": "Exames de Aptidão Física",
+   "questoes": 0,
+   "cor": "#4D7C0F"
+  }
+ },
+ "ordem": [
+  "port",
+  "mat",
+  "hist",
+  "geo",
+  "atual",
+  "info",
+  "adm",
+  "red",
+  "fis"
+ ],
+ "grupos": [
+  {
+   "nome": "Língua Portuguesa e Interpretação de Texto",
+   "questoes": 20
+  },
+  {
+   "nome": "Matemática",
+   "questoes": 15
+  },
+  {
+   "nome": "Conhecimentos Gerais",
+   "questoes": 15,
+   "obs": "História, Geografia e Atualidades"
+  },
+  {
+   "nome": "Noções Básicas de Informática",
+   "questoes": 5
+  },
+  {
+   "nome": "Noções de Administração Pública",
+   "questoes": 5
+  }
+ ],
+ "tipos": {
+  "estudo": {
+   "rotulo": "Estudo",
+   "cor": "#1D4E9E"
+  },
+  "exercicios": {
+   "rotulo": "Exercícios / questões",
+   "cor": "#0F766E"
+  },
+  "revisao": {
+   "rotulo": "Revisão",
+   "cor": "#B45309"
+  },
+  "simulado": {
+   "rotulo": "Simulado",
+   "cor": "#7E22CE"
+  },
+  "redacao": {
+   "rotulo": "Redação",
+   "cor": "#B91C1C"
+  },
+  "treino": {
+   "rotulo": "Treino físico",
+   "cor": "#4D7C0F"
+  },
+  "refeicao": {
+   "rotulo": "Refeição",
+   "cor": "#A16207"
+  },
+  "trabalho": {
+   "rotulo": "Trabalho / compromisso",
+   "cor": "#475569"
+  },
+  "descanso": {
+   "rotulo": "Descanso / lazer",
+   "cor": "#64748B"
+  },
+  "sono": {
+   "rotulo": "Sono",
+   "cor": "#334155"
+  },
+  "outro": {
+   "rotulo": "Outro",
+   "cor": "#6B7280"
+  }
+ },
+ "tiposMarcaveis": [
+  "estudo",
+  "exercicios",
+  "revisao",
+  "simulado",
+  "redacao",
+  "treino"
+ ],
+ "dias": [
+  "Segunda",
+  "Terça",
+  "Quarta",
+  "Quinta",
+  "Sexta",
+  "Sábado",
+  "Domingo"
+ ],
+ "fases": [
+  {
+   "nome": "Fase 1 — BASE",
+   "semanas": [
+    1,
+    12
+   ],
+   "periodo": "28/09/2026 a 20/12/2026",
+   "muda": "1ª passagem por todos os tópicos do Anexo B, uma matéria por bloco. Teoria curta + 10 a 20 questões por tópico.",
+   "porque": "Sem a base completa, exercício vira chute. O objetivo é ver o edital inteiro uma vez.",
+   "meta": "Concluir todos os tópicos e fechar a semana no site."
+  },
+  {
+   "nome": "Fase 2 — APROFUNDAR",
+   "semanas": [
+    13,
+    18
+   ],
+   "periodo": "21/12/2026 a 31/01/2027",
+   "muda": "Segunda passagem guiada pelos erros: refazer os tópicos com menor confiança e acerto. Questões por assunto, no estilo VUNESP.",
+   "porque": "A nota sobe onde o erro se repete. Português (20 questões) e Matemática (15) valem 58% da prova.",
+   "meta": "Acerto médio acima de 70% nos tópicos de Português e Matemática."
+  },
+  {
+   "nome": "Fase 3 — SIMULADOS",
+   "semanas": [
+    19,
+    22
+   ],
+   "periodo": "01/02/2027 a 28/02/2027",
+   "muda": "Simulado completo (60 questões + redação de 30 linhas) todo sábado, com tempo de prova. Revisão dirigida pelo caderno de erros.",
+   "porque": "A habilitação exige 30 pontos na objetiva e 20 na redação — treinar o tempo é parte da nota.",
+   "meta": "Objetiva estável acima de 40/60 e redação acima de 26/40."
+  },
+  {
+   "nome": "Fase 4 — RETA FINAL",
+   "semanas": [
+    23,
+    24
+   ],
+   "periodo": "01/03/2027 a 14/03/2027",
+   "muda": "Nada de assunto novo. Revisão do caderno de erros, resumos, Atualidades e 1 simulado leve. Sono e treino físico em manutenção.",
+   "porque": "Descanso e revisão rendem mais que estudar cansado na última semana.",
+   "meta": "Chegar descansado, com documento e local da prova conferidos."
+  }
+ ],
+ "topicos": [
+  {
+   "id": 1,
+   "materia": "port",
+   "unidade": "Leitura e interpretação",
+   "topico": "Tipos e gêneros textuais: textos literários e não literários",
+   "sem": 1
+  },
+  {
+   "id": 2,
+   "materia": "port",
+   "unidade": "Leitura e interpretação",
+   "topico": "Ideia central, tema, tese e argumentos do texto",
+   "sem": 1
+  },
+  {
+   "id": 3,
+   "materia": "port",
+   "unidade": "Leitura e interpretação",
+   "topico": "Inferência, pressupostos e subentendidos",
+   "sem": 2
+  },
+  {
+   "id": 4,
+   "materia": "port",
+   "unidade": "Léxico e sentido",
+   "topico": "Sinônimos e antônimos",
+   "sem": 2
+  },
+  {
+   "id": 5,
+   "materia": "port",
+   "unidade": "Léxico e sentido",
+   "topico": "Sentido próprio e figurado das palavras",
+   "sem": 3
+  },
+  {
+   "id": 6,
+   "materia": "port",
+   "unidade": "Pontuação",
+   "topico": "Vírgula, ponto, dois-pontos, ponto e vírgula, travessão e aspas",
+   "sem": 4
+  },
+  {
+   "id": 7,
+   "materia": "port",
+   "unidade": "Classes de palavras",
+   "topico": "Substantivo, adjetivo e numeral: emprego e sentido",
+   "sem": 4
+  },
+  {
+   "id": 8,
+   "materia": "port",
+   "unidade": "Classes de palavras",
+   "topico": "Pronome: emprego e sentido",
+   "sem": 5
+  },
+  {
+   "id": 9,
+   "materia": "port",
+   "unidade": "Classes de palavras",
+   "topico": "Verbo: tempos, modos e sentido que imprimem",
+   "sem": 6
+  },
+  {
+   "id": 10,
+   "materia": "port",
+   "unidade": "Classes de palavras",
+   "topico": "Advérbio, preposição e conjunção: relações que estabelecem",
+   "sem": 6
+  },
+  {
+   "id": 11,
+   "materia": "port",
+   "unidade": "Sintaxe",
+   "topico": "Concordância verbal",
+   "sem": 7
+  },
+  {
+   "id": 12,
+   "materia": "port",
+   "unidade": "Sintaxe",
+   "topico": "Concordância nominal",
+   "sem": 7
+  },
+  {
+   "id": 13,
+   "materia": "port",
+   "unidade": "Sintaxe",
+   "topico": "Regência verbal",
+   "sem": 8
+  },
+  {
+   "id": 14,
+   "materia": "port",
+   "unidade": "Sintaxe",
+   "topico": "Regência nominal",
+   "sem": 9
+  },
+  {
+   "id": 15,
+   "materia": "port",
+   "unidade": "Sintaxe",
+   "topico": "Colocação pronominal",
+   "sem": 9
+  },
+  {
+   "id": 16,
+   "materia": "port",
+   "unidade": "Sintaxe",
+   "topico": "Crase",
+   "sem": 10
+  },
+  {
+   "id": 17,
+   "materia": "mat",
+   "unidade": "Números",
+   "topico": "Números inteiros: operações e propriedades",
+   "sem": 1
+  },
+  {
+   "id": 18,
+   "materia": "mat",
+   "unidade": "Números",
+   "topico": "Números racionais: representação fracionária e decimal, operações e propriedades",
+   "sem": 1
+  },
+  {
+   "id": 19,
+   "materia": "mat",
+   "unidade": "Números",
+   "topico": "Mínimo múltiplo comum (MMC)",
+   "sem": 2
+  },
+  {
+   "id": 20,
+   "materia": "mat",
+   "unidade": "Proporcionalidade",
+   "topico": "Razão e proporção",
+   "sem": 3
+  },
+  {
+   "id": 21,
+   "materia": "mat",
+   "unidade": "Proporcionalidade",
+   "topico": "Porcentagem",
+   "sem": 3
+  },
+  {
+   "id": 22,
+   "materia": "mat",
+   "unidade": "Proporcionalidade",
+   "topico": "Regra de três simples",
+   "sem": 4
+  },
+  {
+   "id": 23,
+   "materia": "mat",
+   "unidade": "Estatística",
+   "topico": "Média aritmética simples",
+   "sem": 5
+  },
+  {
+   "id": 24,
+   "materia": "mat",
+   "unidade": "Álgebra",
+   "topico": "Equação do 1º grau",
+   "sem": 5
+  },
+  {
+   "id": 25,
+   "materia": "mat",
+   "unidade": "Álgebra",
+   "topico": "Sistema de equações do 1º grau",
+   "sem": 6
+  },
+  {
+   "id": 26,
+   "materia": "mat",
+   "unidade": "Medidas",
+   "topico": "Sistema métrico: medidas de tempo, comprimento, superfície e capacidade",
+   "sem": 7
+  },
+  {
+   "id": 27,
+   "materia": "mat",
+   "unidade": "Grandezas",
+   "topico": "Relação entre grandezas: leitura de tabelas e gráficos",
+   "sem": 7
+  },
+  {
+   "id": 28,
+   "materia": "mat",
+   "unidade": "Geometria",
+   "topico": "Forma, perímetro e área",
+   "sem": 8
+  },
+  {
+   "id": 29,
+   "materia": "mat",
+   "unidade": "Geometria",
+   "topico": "Volume",
+   "sem": 9
+  },
+  {
+   "id": 30,
+   "materia": "mat",
+   "unidade": "Geometria",
+   "topico": "Teorema de Pitágoras",
+   "sem": 9
+  },
+  {
+   "id": 31,
+   "materia": "mat",
+   "unidade": "Raciocínio",
+   "topico": "Raciocínio lógico",
+   "sem": 10
+  },
+  {
+   "id": 32,
+   "materia": "mat",
+   "unidade": "Raciocínio",
+   "topico": "Resolução de situações-problema",
+   "sem": 11
+  },
+  {
+   "id": 33,
+   "materia": "hist",
+   "unidade": "História Geral",
+   "topico": "Primeira Guerra Mundial",
+   "sem": 3
+  },
+  {
+   "id": 34,
+   "materia": "hist",
+   "unidade": "História Geral",
+   "topico": "O nazifascismo e a Segunda Guerra Mundial",
+   "sem": 3
+  },
+  {
+   "id": 35,
+   "materia": "hist",
+   "unidade": "História Geral",
+   "topico": "A Guerra Fria",
+   "sem": 4
+  },
+  {
+   "id": 36,
+   "materia": "hist",
+   "unidade": "História Geral",
+   "topico": "Globalização e as políticas neoliberais",
+   "sem": 5
+  },
+  {
+   "id": 37,
+   "materia": "hist",
+   "unidade": "História do Brasil",
+   "topico": "A Revolução de 1930 e a Era Vargas",
+   "sem": 6
+  },
+  {
+   "id": 38,
+   "materia": "hist",
+   "unidade": "História do Brasil",
+   "topico": "As Constituições Republicanas",
+   "sem": 6
+  },
+  {
+   "id": 39,
+   "materia": "hist",
+   "unidade": "História do Brasil",
+   "topico": "Estrutura política e movimentos sociais no período militar",
+   "sem": 7
+  },
+  {
+   "id": 40,
+   "materia": "hist",
+   "unidade": "História do Brasil",
+   "topico": "A abertura política e a redemocratização do Brasil",
+   "sem": 8
+  },
+  {
+   "id": 41,
+   "materia": "geo",
+   "unidade": "Geografia Geral",
+   "topico": "A nova ordem mundial, o espaço geopolítico e a globalização",
+   "sem": 6
+  },
+  {
+   "id": 42,
+   "materia": "geo",
+   "unidade": "Geografia Geral",
+   "topico": "Os principais problemas ambientais",
+   "sem": 6
+  },
+  {
+   "id": 43,
+   "materia": "geo",
+   "unidade": "Geografia do Brasil",
+   "topico": "A natureza brasileira: relevo, hidrografia, clima e vegetação",
+   "sem": 7
+  },
+  {
+   "id": 44,
+   "materia": "geo",
+   "unidade": "Geografia do Brasil",
+   "topico": "A população: crescimento, distribuição, estrutura e movimentos",
+   "sem": 8
+  },
+  {
+   "id": 45,
+   "materia": "geo",
+   "unidade": "Geografia do Brasil",
+   "topico": "Atividades econômicas: industrialização e urbanização, fontes de energia e agropecuária",
+   "sem": 9
+  },
+  {
+   "id": 46,
+   "materia": "geo",
+   "unidade": "Geografia do Brasil",
+   "topico": "Os impactos ambientais",
+   "sem": 10
+  },
+  {
+   "id": 47,
+   "materia": "atual",
+   "unidade": "Atualidades",
+   "topico": "Fatos políticos nacionais (desde ~dez/2025)",
+   "sem": 9
+  },
+  {
+   "id": 48,
+   "materia": "atual",
+   "unidade": "Atualidades",
+   "topico": "Fatos econômicos nacionais (desde ~dez/2025)",
+   "sem": 10
+  },
+  {
+   "id": 49,
+   "materia": "atual",
+   "unidade": "Atualidades",
+   "topico": "Fatos sociais e culturais nacionais (desde ~dez/2025)",
+   "sem": 11
+  },
+  {
+   "id": 50,
+   "materia": "atual",
+   "unidade": "Atualidades",
+   "topico": "Fatos políticos, econômicos e sociais internacionais (desde ~dez/2025)",
+   "sem": 12
+  },
+  {
+   "id": 51,
+   "materia": "info",
+   "unidade": "Windows",
+   "topico": "MS-Windows 10: pastas, arquivos, atalhos, área de trabalho, área de transferência e aplicativos",
+   "sem": 5
+  },
+  {
+   "id": 52,
+   "materia": "info",
+   "unidade": "Office",
+   "topico": "MS-Word 2016: documentos, formatação, tabelas, quebras, índices, legendas e objetos",
+   "sem": 6
+  },
+  {
+   "id": 53,
+   "materia": "info",
+   "unidade": "Office",
+   "topico": "MS-Excel 2016: planilhas, fórmulas, funções, gráficos, classificação e dados externos",
+   "sem": 7
+  },
+  {
+   "id": 54,
+   "materia": "info",
+   "unidade": "Office",
+   "topico": "MS-PowerPoint 2016: slides, edição, formatação, botões de ação, animação e transição",
+   "sem": 8
+  },
+  {
+   "id": 55,
+   "materia": "info",
+   "unidade": "Internet",
+   "topico": "Correio eletrônico: uso, envio de mensagens e anexos",
+   "sem": 9
+  },
+  {
+   "id": 56,
+   "materia": "info",
+   "unidade": "Internet",
+   "topico": "Internet: navegação, URL, links, sites, busca e impressão de páginas",
+   "sem": 10
+  },
+  {
+   "id": 57,
+   "materia": "info",
+   "unidade": "Nuvem",
+   "topico": "Google Workspace: Gmail, Agenda, Meet, Chat, Drive, Documentos, Planilhas, Apresentações, Formulários",
+   "sem": 11
+  },
+  {
+   "id": 58,
+   "materia": "info",
+   "unidade": "Nuvem",
+   "topico": "Microsoft Teams: chats, chamadas, grupos e trabalho colaborativo",
+   "sem": 12
+  },
+  {
+   "id": 59,
+   "materia": "adm",
+   "unidade": "Constituição Federal",
+   "topico": "Título II, Cap. I — Direitos e deveres individuais e coletivos (art. 5º)",
+   "sem": 3
+  },
+  {
+   "id": 60,
+   "materia": "adm",
+   "unidade": "Constituição Federal",
+   "topico": "Título II, Cap. IV — Direitos políticos (arts. 14 a 16)",
+   "sem": 3
+  },
+  {
+   "id": 61,
+   "materia": "adm",
+   "unidade": "Constituição Federal",
+   "topico": "Título III, Cap. VII, Seção I — Administração Pública: disposições gerais (arts. 37 e 38)",
+   "sem": 4
+  },
+  {
+   "id": 62,
+   "materia": "adm",
+   "unidade": "Constituição Federal",
+   "topico": "Título III, Cap. VII, Seção III — Militares dos Estados, DF e Territórios (art. 42)",
+   "sem": 5
+  },
+  {
+   "id": 63,
+   "materia": "adm",
+   "unidade": "Constituição Federal",
+   "topico": "Título V, Cap. III — Segurança Pública (art. 144)",
+   "sem": 6
+  },
+  {
+   "id": 64,
+   "materia": "adm",
+   "unidade": "Constituição do Estado de SP",
+   "topico": "Título II, Cap. III — Do Poder Executivo",
+   "sem": 7
+  },
+  {
+   "id": 65,
+   "materia": "adm",
+   "unidade": "Constituição do Estado de SP",
+   "topico": "Título II, Cap. IV, Seção V — Da Justiça Militar do Estado",
+   "sem": 8
+  },
+  {
+   "id": 66,
+   "materia": "adm",
+   "unidade": "Constituição do Estado de SP",
+   "topico": "Título III, Cap. I, Seção I — Administração Pública: disposições gerais",
+   "sem": 8
+  },
+  {
+   "id": 67,
+   "materia": "adm",
+   "unidade": "Constituição do Estado de SP",
+   "topico": "Título III, Cap. II — Servidores Públicos Civis e Servidores Públicos Militares",
+   "sem": 9
+  },
+  {
+   "id": 68,
+   "materia": "adm",
+   "unidade": "Constituição do Estado de SP",
+   "topico": "Título III, Cap. III — Segurança Pública: disposições gerais e Da Polícia Militar",
+   "sem": 10
+  },
+  {
+   "id": 69,
+   "materia": "adm",
+   "unidade": "Acesso à informação",
+   "topico": "Lei Federal nº 12.527/11 — Lei de Acesso à Informação",
+   "sem": 11
+  },
+  {
+   "id": 70,
+   "materia": "adm",
+   "unidade": "Acesso à informação",
+   "topico": "Decreto Estadual nº 68.155/23 — regulamenta a LAI no Estado de SP",
+   "sem": 12
+  },
+  {
+   "id": 71,
+   "materia": "red",
+   "unidade": "Estrutura",
+   "topico": "Texto dissertativo-argumentativo: introdução, desenvolvimento e conclusão",
+   "sem": 1
+  },
+  {
+   "id": 72,
+   "materia": "red",
+   "unidade": "Estrutura",
+   "topico": "Tese clara e posicionamento do autor (ponto de vista defendido)",
+   "sem": 3
+  },
+  {
+   "id": 73,
+   "materia": "red",
+   "unidade": "Adequação",
+   "topico": "Atender ao tema e ao gênero/tipo de texto — fuga total = redação anulada",
+   "sem": 5
+  },
+  {
+   "id": 74,
+   "materia": "red",
+   "unidade": "Adequação",
+   "topico": "Usar os textos de apoio como referencial, sem copiá-los",
+   "sem": 7
+  },
+  {
+   "id": 75,
+   "materia": "red",
+   "unidade": "Língua",
+   "topico": "Coesão e coerência: conectivos, retomadas e progressão das ideias",
+   "sem": 9
+  },
+  {
+   "id": 76,
+   "materia": "red",
+   "unidade": "Língua",
+   "topico": "Norma-padrão: ortografia, acentuação, concordância, regência e pontuação",
+   "sem": 11
+  }
+ ],
+ "grade": [
+  {
+   "id": "g01",
+   "dia": 0,
+   "ini": "06:00",
+   "fim": "07:00",
+   "titulo": "Corrida contínua (base aeróbica)",
+   "tipo": "treino",
+   "materia": "fis",
+   "obs": ""
+  },
+  {
+   "id": "g02",
+   "dia": 0,
+   "ini": "19:00",
+   "fim": "20:30",
+   "titulo": "Língua Portuguesa",
+   "tipo": "estudo",
+   "materia": "port",
+   "obs": ""
+  },
+  {
+   "id": "g03",
+   "dia": 0,
+   "ini": "20:45",
+   "fim": "22:00",
+   "titulo": "Matemática",
+   "tipo": "estudo",
+   "materia": "mat",
+   "obs": ""
+  },
+  {
+   "id": "g04",
+   "dia": 0,
+   "ini": "22:00",
+   "fim": "22:15",
+   "titulo": "Caderno de erros do dia",
+   "tipo": "revisao",
+   "materia": "",
+   "obs": ""
+  },
+  {
+   "id": "g05",
+   "dia": 1,
+   "ini": "06:00",
+   "fim": "07:00",
+   "titulo": "Barra fixa + abdominal remador",
+   "tipo": "treino",
+   "materia": "fis",
+   "obs": ""
+  },
+  {
+   "id": "g06",
+   "dia": 1,
+   "ini": "19:00",
+   "fim": "20:30",
+   "titulo": "Matemática",
+   "tipo": "estudo",
+   "materia": "mat",
+   "obs": ""
+  },
+  {
+   "id": "g07",
+   "dia": 1,
+   "ini": "20:45",
+   "fim": "22:00",
+   "titulo": "Noções de Administração Pública",
+   "tipo": "estudo",
+   "materia": "adm",
+   "obs": ""
+  },
+  {
+   "id": "g08",
+   "dia": 1,
+   "ini": "22:00",
+   "fim": "22:15",
+   "titulo": "Caderno de erros do dia",
+   "tipo": "revisao",
+   "materia": "",
+   "obs": ""
+  },
+  {
+   "id": "g09",
+   "dia": 2,
+   "ini": "06:00",
+   "fim": "07:00",
+   "titulo": "Tiros de 50 m + corrida intervalada",
+   "tipo": "treino",
+   "materia": "fis",
+   "obs": ""
+  },
+  {
+   "id": "g10",
+   "dia": 2,
+   "ini": "19:00",
+   "fim": "20:30",
+   "titulo": "Língua Portuguesa",
+   "tipo": "estudo",
+   "materia": "port",
+   "obs": ""
+  },
+  {
+   "id": "g11",
+   "dia": 2,
+   "ini": "20:45",
+   "fim": "22:00",
+   "titulo": "História",
+   "tipo": "estudo",
+   "materia": "hist",
+   "obs": ""
+  },
+  {
+   "id": "g12",
+   "dia": 2,
+   "ini": "22:00",
+   "fim": "22:15",
+   "titulo": "Caderno de erros do dia",
+   "tipo": "revisao",
+   "materia": "",
+   "obs": ""
+  },
+  {
+   "id": "g13",
+   "dia": 3,
+   "ini": "06:00",
+   "fim": "07:00",
+   "titulo": "Barra fixa + abdominal remador",
+   "tipo": "treino",
+   "materia": "fis",
+   "obs": ""
+  },
+  {
+   "id": "g14",
+   "dia": 3,
+   "ini": "19:00",
+   "fim": "20:30",
+   "titulo": "Matemática",
+   "tipo": "estudo",
+   "materia": "mat",
+   "obs": ""
+  },
+  {
+   "id": "g15",
+   "dia": 3,
+   "ini": "20:45",
+   "fim": "22:00",
+   "titulo": "Noções de Informática",
+   "tipo": "estudo",
+   "materia": "info",
+   "obs": ""
+  },
+  {
+   "id": "g16",
+   "dia": 3,
+   "ini": "22:00",
+   "fim": "22:15",
+   "titulo": "Caderno de erros do dia",
+   "tipo": "revisao",
+   "materia": "",
+   "obs": ""
+  },
+  {
+   "id": "g17",
+   "dia": 4,
+   "ini": "06:00",
+   "fim": "07:00",
+   "titulo": "Mobilidade e treino leve",
+   "tipo": "treino",
+   "materia": "fis",
+   "obs": ""
+  },
+  {
+   "id": "g18",
+   "dia": 4,
+   "ini": "19:00",
+   "fim": "20:30",
+   "titulo": "Geografia",
+   "tipo": "estudo",
+   "materia": "geo",
+   "obs": ""
+  },
+  {
+   "id": "g19",
+   "dia": 4,
+   "ini": "20:45",
+   "fim": "22:00",
+   "titulo": "Redação",
+   "tipo": "estudo",
+   "materia": "red",
+   "obs": "Redação: 1 texto por semana, com no máximo 30 linhas"
+  },
+  {
+   "id": "g20",
+   "dia": 4,
+   "ini": "22:00",
+   "fim": "22:15",
+   "titulo": "Caderno de erros do dia",
+   "tipo": "revisao",
+   "materia": "",
+   "obs": ""
+  },
+  {
+   "id": "g21",
+   "dia": 5,
+   "ini": "08:00",
+   "fim": "10:00",
+   "titulo": "Questões VUNESP — Português e Matemática",
+   "tipo": "exercicios",
+   "materia": "",
+   "obs": ""
+  },
+  {
+   "id": "g22",
+   "dia": 5,
+   "ini": "10:15",
+   "fim": "12:00",
+   "titulo": "Atualidades + questões de Informática e Adm. Pública",
+   "tipo": "exercicios",
+   "materia": "atual",
+   "obs": ""
+  },
+  {
+   "id": "g23",
+   "dia": 5,
+   "ini": "14:00",
+   "fim": "17:00",
+   "titulo": "Simulado ou redação cronometrada (alternar as semanas)",
+   "tipo": "simulado",
+   "materia": "",
+   "obs": "Objetiva: 60 questões. Redação: máximo 30 linhas. Prova real: 5 h para as duas partes."
+  },
+  {
+   "id": "g24",
+   "dia": 6,
+   "ini": "08:00",
+   "fim": "09:30",
+   "titulo": "Treino longo: corrida de 2.400 m",
+   "tipo": "treino",
+   "materia": "fis",
+   "obs": ""
+  },
+  {
+   "id": "g25",
+   "dia": 6,
+   "ini": "16:00",
+   "fim": "17:00",
+   "titulo": "Revisão semanal + planejar a próxima semana",
+   "tipo": "revisao",
+   "materia": "",
+   "obs": ""
+  }
+ ],
+ "edital": {
+  "numero": "Edital DP-3/321/26 — Concurso Público PM-SP, Aluno-Soldado PM (QP)",
+  "banca": "Fundação VUNESP (Exames de Conhecimentos)",
+  "publicacao": "DOESP nº 105, de 03/06/2026",
+  "pagina": "vunesp.com.br/PMES2601",
+  "vagas": "2.000 (dois mil), sem reserva para pessoas com deficiência",
+  "remuneracao": "R$ 5.482,51 (padrão R$ 2.348,42 + RETP R$ 2.348,42 + insalubridade R$ 785,67)",
+  "requisitos": [
+   "Brasileiro(a), de 17 a 30 anos de idade",
+   "Estatura mínima: 160 cm (homem) ou 155 cm (mulher), descalço e descoberto",
+   "Ensino Médio (o nível das provas de conhecimentos)",
+   "Taxa de inscrição paga"
+  ],
+  "inscricoes": "15/06/2026 a 21/08/2026 (encerradas)",
+  "prova_original": "20/09/2026 (tarde) — já aplicada",
+  "prova_nova": "Meados de março/2027 (informada pelo usuário; data exata a confirmar no DOESP e na VUNESP)",
+  "prova_estrutura": [
+   "Parte I — Objetiva: 60 questões de múltipla escolha, 5 alternativas, 1 ponto cada",
+   "Parte II — Dissertativa: 1 redação, máximo de 30 linhas, 0 a 40 pontos",
+   "Duração: 5 horas para as duas partes",
+   "Habilitação: mínimo de 30/60 na objetiva; a redação só é corrigida de quem fez ao menos 30",
+   "Redação: habilitado com 20/40 ou mais"
+  ],
+  "etapas": [
+   {
+    "n": 1,
+    "nome": "Exames de Conhecimentos (Objetiva + Dissertativa)",
+    "carater": "Eliminatório e classificatório",
+    "cap": "V a VIII"
+   },
+   {
+    "n": 2,
+    "nome": "Exames de Aptidão Física",
+    "carater": "Eliminatório",
+    "cap": "IX"
+   },
+   {
+    "n": 3,
+    "nome": "Exames de Saúde (médico, odontológico e toxicológico)",
+    "carater": "Eliminatório",
+    "cap": "X"
+   },
+   {
+    "n": 4,
+    "nome": "Exames Psicológicos",
+    "carater": "Eliminatório",
+    "cap": "XI"
+   },
+   {
+    "n": 5,
+    "nome": "Avaliação da Conduta Social, Reputação e Idoneidade",
+    "carater": "Eliminatório",
+    "cap": "XII"
+   },
+   {
+    "n": 6,
+    "nome": "Análise de Documentos",
+    "carater": "Eliminatório",
+    "cap": "XIII"
+   }
+  ]
+ },
+ "taf": {
+  "testes": [
+   {
+    "id": "barra",
+    "nome_m": "Flexão na barra fixa (dinâmica)",
+    "nome_f": "Isometria na barra fixa",
+    "un_m": "repetições",
+    "un_f": "segundos",
+    "isf_m": 3,
+    "isf_f": 7,
+    "sentido": "maior"
+   },
+   {
+    "id": "abd",
+    "nome_m": "Abdominal remador (60 s)",
+    "nome_f": "Abdominal remador (60 s)",
+    "un_m": "repetições",
+    "un_f": "repetições",
+    "isf_m": 36,
+    "isf_f": 32,
+    "sentido": "maior"
+   },
+   {
+    "id": "c50",
+    "nome_m": "Corrida de 50 m",
+    "nome_f": "Corrida de 50 m",
+    "un_m": "segundos",
+    "un_f": "segundos",
+    "isf_m": 8.25,
+    "isf_f": 9.5,
+    "sentido": "menor"
+   },
+   {
+    "id": "c2400",
+    "nome_m": "Corrida de 2.400 m",
+    "nome_f": "Corrida de 2.400 m",
+    "un_m": "minutos",
+    "un_f": "minutos",
+    "isf_m": 13.0,
+    "isf_f": 15.0,
+    "sentido": "menor"
+   }
+  ],
+  "regras": [
+   "Todos os testes são eliminatórios; reprovar em um impede de seguir para os demais.",
+   "Reteste (uma única vez, no mesmo dia, após no mínimo 5 min) vale para todos, exceto a corrida de 2.400 m.",
+   "Barra (homens): queixo acima da barra sem apoiar, cotovelos totalmente estendidos a cada repetição, sem balanço; \"Não contei!\" para execução incorreta.",
+   "Barra (mulheres): isometria com queixo acima da barra por no mínimo 7 segundos.",
+   "Abdominal remador: 60 segundos; cotovelos alinhados aos joelhos ao subir e mãos tocando o solo acima da cabeça ao voltar.",
+   "Atestado médico de aptidão emitido nos 45 dias anteriores ao teste (ou termo de responsabilidade — Anexo C).",
+   "A altura é aferida no início; abaixo do mínimo elimina antes dos testes."
+  ]
+ },
+ "redacaoCriterios": [
+  "Texto dissertativo-argumentativo em prosa, na norma-padrão, com no máximo 30 linhas.",
+  "Atender ao tema proposto e ao gênero/tipo de texto — fuga completa de qualquer um leva a redação a não ser considerada.",
+  "Ter introdução, desenvolvimento e conclusão, com posicionamento claro do autor.",
+  "Usar os textos de apoio como referencial — cópia contínua dos textos de apoio ou de modelos prontos leva a nota zero.",
+  "O título não é avaliado. Letra incompreensível, texto fora do espaço ou cópia de outra redação podem zerar a nota.",
+  "Cada redação é avaliada por 2 examinadores independentes."
+ ]
+}

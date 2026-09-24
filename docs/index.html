@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR" data-tema="claro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cronograma Bruno · PM-SP</title>
+<meta name="description" content="Plano de estudos para o concurso de Aluno-Soldado da Polícia Militar de São Paulo, com grade semanal editável, conteúdo do edital e controle de progresso.">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#0B1F3F">
+<meta http-equiv="Content-Security-Policy"
+      content="default-src 'self';
+               img-src 'self' data:;
+               connect-src 'self' https://*.supabase.co wss://*.supabase.co;
+               style-src 'self' 'unsafe-inline';
+               script-src 'self';
+               base-uri 'none';
+               form-action 'none';">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./assets/icons/icone.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./assets/icons/icone-180.png">
+<link rel="stylesheet" href="./assets/css/app.css?v=20260924a">
+</head>
+<body>
+
+<div class="app">
+
+  <aside class="sidebar">
+    <div class="sidebar__marca">
+      <b>Cronograma Bruno</b>
+      <span>PM-SP · Aluno-Soldado · Edital DP-3/321/26</span>
+    </div>
+    <div class="sidebar__filete"></div>
+    <nav class="sidebar__nav" id="nav" aria-label="Seções"></nav>
+    <div class="sidebar__rodape">
+      <div class="sync" id="sync"><span class="sync__ponto"></span><span>Carregando…</span></div>
+    </div>
+  </aside>
+
+  <div class="main">
+    <header class="topo">
+      <div>
+        <h1 id="tituloPagina">Hoje</h1>
+        <div class="topo__sub" id="subPagina"></div>
+      </div>
+      <div class="topo__acoes">
+        <button class="btn btn--peq btn--fantasma" id="btnTema" type="button"
+                title="Alternar claro e escuro" aria-label="Alternar tema">🌙</button>
+      </div>
+    </header>
+
+    <main class="conteudo" id="view">
+      <p style="color:var(--ink-3)">Carregando o plano…</p>
+    </main>
+  </div>
+
+</div>
+
+<nav class="tabbar" id="tabbar" aria-label="Navegação"></nav>
+
+<noscript>
+  <div class="aviso" style="margin:20px">
+    Este site precisa de JavaScript para funcionar. Ative-o no navegador.
+  </div>
+</noscript>
+
+<script type="module" src="./js/app.js?v=20260924a"></script>
+</body>
+</html>
