@@ -279,6 +279,22 @@ dialog.modal::backdrop { background: rgba(5,10,20,.55); }
 .dias-chk label:has(input:checked) { background: color-mix(in srgb, var(--pri) 15%, var(--surface)); border-color: var(--pri); }
 .cores-rapidas { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
 
+/* cursinho (aba Hoje) */
+.cur-un { font-size: 11px; font-weight: 650; color: var(--ink-2); text-transform: uppercase; letter-spacing: .04em; padding: 10px 0 4px; }
+.cur-lin { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 6px 10px; align-items: center; padding: 8px 10px; margin-bottom: 6px; border: 1px solid var(--line); border-left: 4px solid var(--line-2); border-radius: var(--radius-s); background: var(--surface); }
+.cur-lin--and { border-left-color: var(--gold); background: color-mix(in srgb, var(--gold) 8%, var(--surface)); }
+.cur-lin--ok { border-left-color: var(--ok-fg); }
+.cur-lin--ok .cur-lin__txt > span { color: var(--ink-3); text-decoration: line-through; }
+.cur-lin__txt { font-size: 13.5px; min-width: 0; }
+.cur-lin__txt small { display: block; color: var(--ink-3); font-size: 11px; }
+.cur-lin__acoes { display: flex; gap: 6px; align-items: center; }
+.cur-lin__acoes select { min-height: 34px; padding: 4px 7px; font-size: 12.5px; width: auto; }
+.cur-lin__aula { grid-column: 1 / -1; }
+.cur-lin__aula input { min-height: 32px; padding: 4px 8px; font-size: 12px; }
+@media (max-width: 600px) { .cur-lin { grid-template-columns: 1fr; } .cur-lin__acoes { justify-content: space-between; } .cur-lin__acoes select { flex: 1; } }
+input[type="search"] { width: 100%; padding: 9px 11px; min-height: 40px; background: var(--surface); color: var(--ink); border: 1px solid var(--line-2); border-radius: var(--radius-s); outline: none; max-width: 340px; }
+input[type="search"]:focus { border-color: var(--pri); box-shadow: 0 0 0 3px color-mix(in srgb, var(--pri) 20%, transparent); }
+
 /* conteúdo */
 .mat-cab { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
 .mat-cab .cor { width: 12px; height: 12px; border-radius: 3px; background: var(--c); flex: 0 0 12px; }

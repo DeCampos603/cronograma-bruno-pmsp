@@ -10,7 +10,7 @@ PWA offline-first, HTML + CSS + JS vanilla (ES modules), zero build, sem CDN e s
 
 | Tela | O que faz |
 |---|---|
-| **Hoje** | Contagem regressiva, próximos tópicos de cada matéria do dia e checklist da agenda de hoje |
+| **Hoje** | Contagem regressiva, painel do cursinho (busca por qualquer tópico do edital, Estudando/Concluído, campo "aula do cursinho") e checklist da agenda de hoje |
 | **Grade** | Semana (ou dia) em linha do tempo. **Editável**: título, dias, horários, tipo, matéria, cor e observação |
 | **Conteúdo** | Os 76 tópicos do Anexo B, com situação, confiança, % de acerto e anotação |
 | **Painel** | Progresso por matéria, horas, questões, último simulado/redação/TAF contra os cortes |
